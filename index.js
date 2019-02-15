@@ -25,6 +25,10 @@ function dec(n) {
 }
 
 function makeInt(n) {
+  var parsed = parseInt(x, base);
+  if (isNAN(parsed)) {
+    return 0
+  }
   parseInt(n, 10)
   return n
 }
